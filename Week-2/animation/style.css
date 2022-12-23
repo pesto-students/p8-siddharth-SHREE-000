@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outerBox {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 40%;
+    height: 400px;
+}
+.box1 {
+    background-color: red;
+}
+.box2 {
+    background-color: yellow;
+}
+.box3 {
+    background-color: blue;
+}
+.box4 {
+    background-color: green;
+}
+
