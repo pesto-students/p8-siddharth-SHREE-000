@@ -32,4 +32,35 @@ img {
     .section-main {
       flex-wrap: wrap;
     }
-  }
+}
+
+.section-down {
+    min-width: 100%;
+    margin-right: 2vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form, .inputs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.label {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input {
+    width: 200%;
+}
+.title {
+    margin-bottom: 10px;
+}
+button {
+    width: 10%;
+    margin-top: 20px;
+}

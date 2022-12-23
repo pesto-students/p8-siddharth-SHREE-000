@@ -78,12 +78,36 @@
             </section>
         </section>
         <section class="section-down">
-            <form action="#">
-                <h4>Title</h4>
+            <form class="form" action="#">
+            <div class="title">Title
                 <label for="Mr">Mr<input type="radio"></label>
                 <label for="Mrs">Mrs<input type="radio"></label>
                 <label for="Miss">Miss<input type="radio"></label>
-                <label for="">First name<input type="text"></label>
+            </div>
+            <div class="inputs">
+                <label class="label" for="">First Name<input class="input" type="text"></label>
+                <label class="label" for="">Last Name<input class="input" type="text"></label>
+                <label class="label" for="">Email<input class="input" type="email"></label>
+                <label class="label" for="">Phone Number<input class="input" type="number"></label>
+                <label class="label" for="">Password<input class="input" type="password"></label>
+                <label class="label" for="">Confirm Your Password<input class="input" type="password"></label>
+                <label class="label" for="">Country <select name="country" id="countryId">
+                    <option value="america">America</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="canada">Canada</option>
+                    <option value="england">England</option>
+                    <option value="India">India</option>
+                    <option value="iran">Iran</option>
+                    <option value="jordan">Jordan</option>
+                    <option value="zimbabwe">Zimbabwe</option>
+                </select></label>
+                <label class="label">
+                    <input type="checkbox"  class="input" name="termsAndCondition" id="termsAndConditionId">
+                    I agree to the 
+                    <a href="#">terms and conditions</a>
+                </label>
+            </div>
+                <button type="submit">Submit</button>
             </form>
         </section>
     </div>
