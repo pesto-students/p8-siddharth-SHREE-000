@@ -5,12 +5,20 @@ body {
     background-color: aqua;
 }
 
-/* .outerBox:hover {
-    animation-name: rotationRed;
-    animation-name: rotationBlue;
-    animation-name: rotationYellow;
-    animation-name: rotationGreen;
-} */
+#outerBoxId:hover .box1{
+    animation: rotationRed 1s linear 0s 1 forwards;
+}
+#outerBoxId:hover .box3{
+    animation: rotationBlue 1s linear 0s 1 forwards;
+}
+
+#outerBoxId:hover .box2{
+    animation: rotationYellow 1s linear 0s 1 forwards;
+}
+
+#outerBoxId:hover .box4{
+    animation: rotationGreen 1s linear 0s 1 forwards;
+}
 
 .outerBox {
     margin-top: 100px;
@@ -24,29 +32,17 @@ body {
 .box1 {
     background-color: red;
 }
-.box1:hover {
-    animation: rotationRed 1s linear 0s 1 forwards;;
-}
 
 .box3 {
     background-color: blue;
-}
-.box3:hover {
-    animation: rotationBlue 1s linear 0s 1 forwards;
 }
 
 .box2 {
     background-color: yellow;
 }
-.box2:hover {
-    animation: rotationYellow 1s linear 0s 1 forwards;
-}
 
 .box4 {
     background-color: green;
-}
-.box4:hover {
-    animation: rotationGreen 1s linear 0s 1 forwards;
 }
 
 .text {
